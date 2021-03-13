@@ -1,5 +1,6 @@
 REPORT ON TAYLOR COUETTE FLOW PROBLEM
-Aim:To analyse the taylor couette flow in annular cylinder
+ 
+ Aim:To analyse the taylor couette flow in annular cylinder
 Introduction : In fluid dynamics, the Taylor–Couette flow consists of a viscous fluid confined in the gap between two rotating cylinders. For low angular velocities, measured by the Reynolds number Re, the flow is steady and purely azimuthal.
 Given:  omega = 6 rad/s R1 = 1m   R2 = 2m  dynamic viscosity = 0.1 Pa.s  Density = 1 kg/m3
 Proceedure:This is the case of steady flow. First is the creation of the mesh. We shall consider the 2D mixer vesseland make a special case out of it so that it can  fit our problem.First we shall copy the 2D mixer vessel case form the incompressible folder from simpleFoam and then make changes in its structure.The commands to be used  in the simpleFoam folder are : cp –r  mixerVessel2D  $FOAM_RUN/test_final.
